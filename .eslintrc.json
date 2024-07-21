@@ -31,10 +31,11 @@
         "alphabetize": {
           "order": "asc",
           "caseInsensitive": true
-        },
-        "newlines-between": "always"
+        }
+        // "newlines-between": "always"
       }
-    ]
+    ],
+    "prettier/prettier": "off"
   },
   "globals": {
     "Set": true,
