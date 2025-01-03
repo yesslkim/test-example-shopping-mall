@@ -6,7 +6,7 @@
   "scripts": {
     "dev:server": "node --watch server/index.js",
     "dev:ui": "vite",
-    "dev": "concurrently --kill-others 'npm run dev:server' 'npm run dev:ui'",
+    "dev": "concurrently --kill-others \"npm run dev:server\" \"npm run dev:ui\"",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
