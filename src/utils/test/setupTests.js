@@ -1,3 +1,4 @@
+// Note: import '@testing-library/jest-dom'; - DOM 관련된 테스트 확장하기위해 import
 import '@testing-library/jest-dom';
 
 afterEach(() => {
